@@ -1,7 +1,13 @@
 // Big thanks to jsthon for the initial work on this https://meta.discourse.org/u/jsthon/
+@import url(https://fonts.googleapis.com/css?family=Poppins);
 
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
+}
+
+:root {
+  --heading-font-family: "Poppins";
+  --font-family: "Poppins";
 }
 
 .background-container {
